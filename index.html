@@ -369,6 +369,7 @@ section{position:relative;padding:16vh 6vw;max-width:1200px;margin:0 auto}
   .vform button{display:block;width:100%;letter-spacing:.3em}
   .vform-note{font-size:.56rem;letter-spacing:.16em;text-align:center}
   footer{font-size:.56rem;letter-spacing:.22em;padding:8vh 7vw 5vh}
+  .footer-mark{width:42px}
   .eol{font-size:.52rem;letter-spacing:.36em}
 }
 
@@ -377,7 +378,10 @@ footer{
   padding:10vh 6vw 6vh;text-align:center;
   font-size:.66rem;letter-spacing:.34em;text-transform:uppercase;color:var(--ash);
 }
-footer .cross{font-size:1.1rem;display:block;margin-bottom:1.6rem;color:var(--silver)}
+.footer-mark{
+  display:block;width:52px;height:auto;margin:0 auto 1.8rem;
+  opacity:.58;filter:drop-shadow(0 0 14px rgba(216,211,200,.12));
+}
 footer p+p{margin-top:.9em}
 .eol{margin-top:3.4rem;color:#3d3a34;font-size:.6rem;letter-spacing:.5em}
 </style>
@@ -474,7 +478,7 @@ footer p+p{margin-top:.9em}
 </section>
 
 <footer>
-  <span class="cross">†</span>
+  <img class="footer-mark" src="assets/december-vault-symbol-white.svg" width="745" height="1005" alt="December Vault">
   <p>December Vault — darkwave transmissions</p>
   <p>℗ December LLC · MMXXVI</p>
   <p class="eol">— END OF TAPE —</p>
